@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.3.60:8848
+        file-extension: yaml
+        namespace: a4d06a33-c283-4de5-b28c-b6d6d13fd963
+        group: dev
+      discovery:
+        server-addr: 192.168.3.60:8848
+#    gateway:
+#      routes:
+#        - id: user
+#          uri: lb://user
+#          predicates:
+#            - Path=/user/**
+#          filters:
+#            - StripPrefix=1
