@@ -6,7 +6,7 @@
         <groupId>org.example</groupId>
         <artifactId>demo</artifactId>
         <version>1.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
     <artifactId>order</artifactId>

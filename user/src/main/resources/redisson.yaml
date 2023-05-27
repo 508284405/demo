@@ -23,7 +23,7 @@ clusterServersConfig:
   subscriptionMode: "SLAVE"
   nodeAddresses:
    - "redis://192.168.3.65:6379"
-   - "redis://192.168.3.65:6380"
+#   - "redis://192.168.3.65:6380"
    - "redis://192.168.3.65:6381"
   scanInterval: 1000
   pingConnectionInterval: 0
